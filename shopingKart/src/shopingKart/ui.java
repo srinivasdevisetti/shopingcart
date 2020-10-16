@@ -22,12 +22,13 @@ public class ui {
 				showcart();
 				break;
 		
+		
 				default:
 					break;
 					}
 	}
 	public void startmenu() {
-		System.out.println("selrct from folling:");
+		System.out.println("select from folling:");
 		System.out.println("display store products - 1");
 		System.out.println("show cart -2");
 		System.out.println("exite -0");
@@ -74,6 +75,10 @@ public class ui {
 			break;
 		case 2:
 			removefromcart();
+			
+			break;
+		case 0:
+			menu();
 			break;
 		}
 	}
